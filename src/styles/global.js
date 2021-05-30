@@ -12,6 +12,8 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   list-style :  none;
   text-decoration : none;
+  font-family: 'Nunito', sans-serif;
+  font-size : 1.2rem;
 }
 
 html,
@@ -29,9 +31,16 @@ html {
 }
 
 body {
-  background : #181a1e;
+  background : #18181d;
+  color : #b2b6b9;
 
 }
+a{
+  font-family : inherit;
+  color:inherit;
+  font-size : inherit;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 819px) and (orientation: landscape) {
   html {

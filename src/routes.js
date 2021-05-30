@@ -45,6 +45,9 @@ function Routes() {
                         <Portfolio
                     />
                 }/>
+                <Route path="*">
+                    <Redirect to="/" />
+                </Route>
        </Switch>
 
     );
