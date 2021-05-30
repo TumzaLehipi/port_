@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ReactComponent as Home } from "../../assets/home.svg";
-import { ReactComponent as About } from "../../assets/about.svg";
-import { ReactComponent as Skills } from "../../assets/skills.svg";
-import { ReactComponent as Works } from "../../assets/works.svg";
-import { ReactComponent as Contact } from "../../assets/contact.svg";
+import { ReactComponent as Home } from "../../assets/home.svg"
+import { ReactComponent as About } from "../../assets/about.svg"
+import { ReactComponent as Skills } from "../../assets/skills.svg"
+import { ReactComponent as Works } from "../../assets/works.svg"
+import { ReactComponent as Contact } from "../../assets/contact.svg"
 
 import { NavigationStyle } from './styles'
 import {NavLink} from 'react-router-dom'
@@ -52,7 +52,7 @@ function Navigation() {
                 <p>@2021 Tumelo Moipolai</p>
             </footer>
         </NavigationStyle>
-    )
+    );
 }
 
 export default Navigation

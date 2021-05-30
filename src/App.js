@@ -23,11 +23,10 @@ class App extends Component {
         return (
           <Router>
             <GlobalStyle />
-            <SideBar  />
-                <Navigation/>
-                <Page>
-                  <Container>
-                    <Routes />
+                <SideBar  />
+                  <Page>
+                    <Container>
+                      <Routes />
                   </Container>
                 </Page>
             </Router>

@@ -11,13 +11,13 @@ import {
 
 function SideBar() {
     return (
-        <React.Fragment>
-            <Container>
-                <Navigation/>
-            </Container>
+            <React.Fragment>
+                <Container>
+                    <Navigation/>
+                </Container>
         </React.Fragment>
-    
-    )
+
+    );
 }
 
 export default SideBar

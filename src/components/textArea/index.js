@@ -23,4 +23,5 @@ export default function Text({home, title, subtitle, children}) {
             </Paragraph>)};
 
         </React.Fragment>
-    )};
+    );
+}
