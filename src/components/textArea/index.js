@@ -20,7 +20,7 @@ export default function Text({home, title, subtitle, children}) {
                         {children}
                     </TextContainer>
                 </About>
-            </Paragraph>)};
+            </Paragraph>)}
 
         </React.Fragment>
     );

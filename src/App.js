@@ -8,7 +8,7 @@ import {
 
 import Routes from "./routes";
 
-import Navigation from './components/navigation/index';
+
 
 import SideBar from './components/sideBar/index';
 
@@ -22,8 +22,9 @@ class App extends Component {
     render() {
         return (
           <Router>
+              <SideBar  />
             <GlobalStyle />
-                <SideBar  />
+              
                   <Page>
                     <Container>
                       <Routes />
