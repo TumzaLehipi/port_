@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+
 export const Container = styled.div`
   width : 16.3rem;
   position : fixed;
@@ -11,6 +13,4 @@ export const Container = styled.div`
     min-height: 100vw;
   }
 `;
-
-
 

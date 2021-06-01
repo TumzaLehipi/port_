@@ -1,8 +1,9 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-export const NavigationStyle = styled.nav`
 
-    display : flex;
+export const NavigationLinks = styled.nav`
+
+display : flex;
     justify-content : space-between;
     flex-direction: column;
     align-items : center;
@@ -27,6 +28,13 @@ export const NavigationStyle = styled.nav`
             display : block;
             a{
                 display : block;
+                padding : .5rem 0;
+                &:hover{
+                  cursor: pointer;
+                }
+                &:before{
+
+                }
             }
         }
     }
@@ -41,5 +49,4 @@ export const NavigationStyle = styled.nav`
             text-align:center;
         }
     }
-
 `;
