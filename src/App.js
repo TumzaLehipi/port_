@@ -22,9 +22,8 @@ class App extends Component {
     render() {
         return (
           <Router>
-              <SideBar  />
             <GlobalStyle />
-              
+                <SideBar  />
                   <Page>
                     <Container>
                       <Routes />
