@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 
 import {NavigationLinks,
        
@@ -13,28 +13,42 @@ function Navigation() {
         <React.Fragment>
             <NavigationLinks>
             <div className = "avatar">
-                <img src = {avatar} alt = ""/>
+                <Link to ="/">
+                    <img src = {avatar} alt = ""/>
+                </Link>
             </div>
-                
-                    <NavLink exact to="/" name="home" activeClassName="active">
-                        Home
-                    </NavLink> 
-                    <NavLink  to="/about" name="about" activeClassName="active">
-                        About
-                    </NavLink>              
-                    <NavLink  to="/resume" name="resume" activeClassName="active">
-                        Resume
-                    </NavLink>  
-                    <NavLink  to="/portfolio" name="portfolio" activeClassName="active">
+                <ul className = "nav-item">
+                    <li className = "nav-item">
+                        <NavLink exact to="/" name="home" activeClassName="active-class">
+                            Home
+                        </NavLink> 
+                    </li>
+                    <li className = "nav-item">
+                        <NavLink  to="/about" name="about" activeClassName="active-class">
+                            About
+                        </NavLink>              
+                    </li>
+                    <li className = "nav-item">        
+                        <NavLink  to="/resume" name="resume" activeClassName="active-class">
+                            Resume
+                        </NavLink>
+                    </li>
+                    <li className = "nav-item">
+                    <NavLink  to="/portfolio" name="portfolio" activeClassName="active-class">
                         Portfolios
                     </NavLink> 
-                    <NavLink  to="/blogs" name="blogs" activeClassName="active">
-                        Blogs
-                    </NavLink> 
-                    <NavLink  to="/contact" name="contact" activeClassName="active">
-                        Contact
-                    </NavLink> 
-             
+                    </li>
+                    <li className = "nav-item">
+                        <NavLink  to="/blogs" name="blogs" activeClassName="active-class">
+                            Blogs
+                        </NavLink> 
+                    </li>
+                    <li className = "nav-item">
+                        <NavLink  to="/contact" name="contact" activeClassName="active-class">
+                            Contact
+                        </NavLink> 
+                    </li>
+                </ul>     
                 <footer>
                     <p>@2021 Tumelo Moipolai</p>
                 </footer>

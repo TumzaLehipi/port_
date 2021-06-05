@@ -1,9 +1,5 @@
 import React from 'react';
 
-import {NavLink} from 'react-router-dom'
-
-import avatar from '../../assets/avatar.jpg'
-
 import Navigation from '../Navigation/index'
 
 import { ReactComponent as Home, } from "../../assets/home.svg"
