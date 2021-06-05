@@ -14,8 +14,12 @@ import SideBar from './components/sideBar/index';
 
 import { 
   GlobalStyle, 
-  Page, Container
+  Page, 
+  Container,
+  MainContentStyled
   } from "./styles/global";
+
+import Navigation from './components/Navigation';
 
 class App extends Component {
 
@@ -23,11 +27,14 @@ class App extends Component {
         return (
           <Router>
             <GlobalStyle />
+             <Navigation/>
                 <SideBar  />
                   <Page>
+                    <MainContentStyled>
                     <Container>
                       <Routes />
                   </Container>
+                  </MainContentStyled>
                 </Page>
             </Router>
         );
