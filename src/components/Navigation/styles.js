@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 export const NavigationLinks = styled.nav`
 
-    width : 16.3rem;
+    width : 10rem;
     position : fixed;
     height : 100vh;
     background-color : #202026;
@@ -13,6 +13,7 @@ export const NavigationLinks = styled.nav`
     align-items : center;
     z-index : 999;
 
+
     
   @media screen and (min-width: 320px) and (max-width: 819px) and (orientation: landscape) {
     min-height: 100vw;
@@ -21,6 +22,7 @@ export const NavigationLinks = styled.nav`
 
     .avatar{
         width : 100%;
+        height : 200px;
         border-bottom : 1px solid #181a1e;
         text-align : center;
         padding : 1rem 0;
@@ -48,12 +50,18 @@ export const NavigationLinks = styled.nav`
             }
     }
     .nav-item{
+        position : relative;
+        top : -34px;
+        margin-top : 0;
+
         width : 100%;
         text-align : center;
         cursor : pointer;
     
         li{
             display : block;
+            border-bottom: 1px solid #181a1e;
+         
            
             a{
                 display : block;
@@ -93,10 +101,50 @@ export const NavigationLinks = styled.nav`
         border-top : 1px solid  #181a1e;
         width : 100%;
         p{
-            padding: 1rem 0;
-            font-size: 0.2 rem;
+            padding: .5rem 0;
+            font-size: 10px;
             display : block;
             text-align:center;
         }
     }
+`;
+
+export const List = styled.ul`
+ 
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+  align-items : center;
+  width : 10rem;
+
+
+  @media only screen and (max-height: 619px) {
+    display: none;
+  }
+`;
+
+export const LinkBlank = styled.a``;
+
+export const ChildrenList = styled.li`
+  > a {
+    padding: 5px 0;
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+  
+    color:white;
+
+    &#github:hover {
+      color: #283e4a;
+    }
+    &#facebook:hover {
+      color: #4267b2;
+    }
+    &#linkedin:hover {
+      color: #285aeb;
+    }
+    &#instagram:hover {
+      color: #bc1888;
+    }
+  }
 `;

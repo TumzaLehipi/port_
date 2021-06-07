@@ -2,9 +2,17 @@ import React from 'react'
 
 import {NavLink, Link} from 'react-router-dom'
 
-import {NavigationLinks,
-       
-} from './styles'
+import {
+    NavigationLinks,
+    LinkBlank,
+    List,
+    ChildrenList
+} from './styles';
+
+import { ReactComponent as Facebook } from "../../assets/facebook.svg";
+import { ReactComponent as Instagram } from "../../assets/instagram.svg";
+import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
+import { ReactComponent as Github } from "../../assets/github.svg";
 
 import avatar from '../../assets/avatar.jpg'
 
@@ -13,16 +21,12 @@ function Navigation() {
         <React.Fragment>
             <NavigationLinks>
             <div className = "avatar">
-                <Link to ="/">
+                <Link exact to ="/">
                     <img src = {avatar} alt = ""/>
                 </Link>
             </div>
                 <ul className = "nav-item">
-                    <li className = "nav-item">
-                        <NavLink exact to="/" name="home" activeClassName="active-class">
-                            Home
-                        </NavLink> 
-                    </li>
+
                     <li className = "nav-item">
                         <NavLink  to="/about" name="about" activeClassName="active-class">
                             About
@@ -48,7 +52,8 @@ function Navigation() {
                             Contact
                         </NavLink> 
                     </li>
-                </ul>     
+                </ul>
+ 
                 <footer>
                     <p>@2021 Tumelo Moipolai</p>
                 </footer>

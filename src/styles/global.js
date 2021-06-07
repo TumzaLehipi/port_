@@ -78,7 +78,7 @@ export const Container = styled.div`
 export const MainContentStyled = styled.main`
   
   position : relative;
-  margin-left : 16.3rem;
+  margin-left : 10rem;
   min-height : 100vh;
   
   /*  .lines{

@@ -77,7 +77,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   letter-spacing: 0.1em;
-  font-size: 4vh;
+  font-size: 7vh;
   font-family: 'Nunito', sans-serif;
   font-weight: 400 !important;
   color: white;
