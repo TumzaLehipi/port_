@@ -57,11 +57,12 @@ const rubberBand = keyframes`
 export const Container = styled.div`
     position: absolute;
     margin-left : 8rem;
-    top: 16rem;
+    top: 10rem;
     user-select: none;
     height : 330px;
     width: 575px;
     color : #444;
+ 
 
     
   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
@@ -77,7 +78,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   letter-spacing: 0.1em;
-  font-size: 4vh;
+  font-size: 7vh;
   font-family: 'Nunito', sans-serif;
   font-weight: 400 !important;
   color: white;
@@ -97,6 +98,7 @@ export const Sub = styled.h2`
     display : flex;
     justify-content : center;
     align-content : center;
+    background-color : white;
  
   `;
   export const Heading = styled.h1`

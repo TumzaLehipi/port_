@@ -12,7 +12,7 @@ export const Containter = styled.div`
 `;
 export const List = styled.ul`
  
-  display: block;
+  display: inline-block;
   padding: 0;
   list-style: none;
   align-items : center;

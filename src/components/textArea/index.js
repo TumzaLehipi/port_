@@ -89,7 +89,7 @@ export default function Text({home,pre, title, subtitle, children}) {
                     {home && <Sub className={actived && "active"}>{subtitle}</Sub>}
                     {!home && !children && (
                         <Sub className="fast" size="18px">
-                        IN CONSTRUCTION...
+                        UNDER CONSTRUCTION...
                         </Sub>
                     )}
                     {home && (
