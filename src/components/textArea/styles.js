@@ -62,9 +62,7 @@ export const Container = styled.div`
     height : 330px;
     width: 575px;
     color : #444;
- 
-
-    
+   
   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     font-size: 5vw;
   }
@@ -73,7 +71,6 @@ export const Container = styled.div`
     font-size: 3vh;
     left: 90px;
   }
-
 `;
 
 export const Title = styled.h1`
@@ -93,12 +90,21 @@ export const Sub = styled.h2`
   opacity: 1;
 
   `;
+  export const Subtitle = styled.h2`
+  margin-left : -5rem;
+  margin-top: 34px;
+  color: #ff3d00;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  opacity: 1;
+
+  `;
   export const Paragraph = styled.div`  
 
     display : flex;
     justify-content : center;
     align-content : center;
-    background-color : white;
+   
  
   `;
   export const Heading = styled.h1`
@@ -140,4 +146,36 @@ export const Span = styled.span`
       color: purple;
     }
 
+`;
+export const Button = styled.button`
+  background: #18181d;
+  color: #ff3d00;
+  opacity: 0;
+  width : 10rem;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  padding: 0.5em 1em;
+  border: 2px solid #ff3d00;
+  border-radius: 3px;
+
+  &.active {
+    animation: ${toAnimate} 2s backwards;
+    opacity: 1;
+  }
+`;
+
+export const OtherTitles = styled.div`
+
+  position : relative;
+  margin-top : -5rem;
+  margin-left : -5rem;
+
+
+  letter-spacing: 0.1em;
+  font-size: 7vh;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400 !important;
+  color: white;
 `;

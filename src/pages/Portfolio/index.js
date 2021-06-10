@@ -1,10 +1,19 @@
 import React from 'react'
 
+import Text from '../../components/textArea';
+
+import {
+    MainLayout
+} from '../../styles/Layout';
+
 function Portfolio() {
     return (
-        <div>
-            portfolio
-        </div>
+        <MainLayout>
+            <Text 
+            title={"Portfolio"}
+            subtitle={"Under Construction..."}
+            />
+        </MainLayout>
     )
 }
 

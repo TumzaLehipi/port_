@@ -3,16 +3,9 @@ import React from 'react'
 import {NavLink, Link} from 'react-router-dom'
 
 import {
-    NavigationLinks,
-    LinkBlank,
-    List,
-    ChildrenList
+    NavigationLinks
 } from './styles';
 
-import { ReactComponent as Facebook } from "../../assets/facebook.svg";
-import { ReactComponent as Instagram } from "../../assets/instagram.svg";
-import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
-import { ReactComponent as Github } from "../../assets/github.svg";
 
 import avatar from '../../assets/avatar.jpg'
 
