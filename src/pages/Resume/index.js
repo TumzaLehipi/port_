@@ -1,11 +1,19 @@
 import React from 'react';
 
+import Text from '../../components/textArea';
+
+import {
+    MainLayout
+  } from '../../styles/Layout';
 
 function Resume(props) {
     return (
-        <div>
-            Resume
-        </div>
+        <MainLayout>
+            <Text 
+            title={"Resume"}
+            subtitle={"Under Construction..."}
+            />
+        </MainLayout>
     );
 }
 

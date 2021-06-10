@@ -12,7 +12,9 @@ import { ReactComponent as Github } from "../../assets/github.svg";
 import {  
     LinkBlank,
     List,
-    ChildrenList
+    ChildrenList,
+    Lines,
+    Line2
 } from './styles';
 
 
@@ -20,8 +22,7 @@ import {
 function SocialLinks() {
     return (
         <Containter>
-            {/*
-            
+            <Line2/>
             <List>
             <ChildrenList>
                 <LinkBlank
@@ -36,7 +37,7 @@ function SocialLinks() {
             <ChildrenList>
                 <LinkBlank
                 id="linkedin"
-                href="https://linkedin.com/in/WilliamJesusDev"
+                href="https://linkedin.com/in/tumelo-moipolai-93030a1a8"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
@@ -46,7 +47,7 @@ function SocialLinks() {
             <ChildrenList>
                 <LinkBlank
                 id="facebook"
-                href="https://www.facebook.com/WillZinhOZ"
+                href="https://www.facebook.com/tumzalehipitmz"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
@@ -56,7 +57,7 @@ function SocialLinks() {
             <ChildrenList>
                 <LinkBlank
                 id="instagram"
-                href="https://instagram.com/willzinhoz"
+                href="https://instagram.com/tumzalehipi"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
@@ -64,7 +65,8 @@ function SocialLinks() {
                 </LinkBlank>
             </ChildrenList>
             </List>
-            */}
+        
+            <Lines/>
         </Containter>
     );
 }

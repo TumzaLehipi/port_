@@ -7,7 +7,11 @@ import {Link} from 'react-router-dom';
 import {
     Container,
     Title,
-    Sub, Span, Paragraph, TextContainer, Heading,About } from './styles';
+    Sub, Span, 
+    Paragraph, 
+    Button, 
+    OtherTitles,
+    Subtitle} from './styles';
 
 export default function Text({home,pre, title, subtitle, children}) {
     
@@ -15,7 +19,6 @@ export default function Text({home,pre, title, subtitle, children}) {
     
     return (
         <Container>
-
             <Typing
                 cursorClassName="custom"
                 cursor={<span>_</span>}
@@ -23,7 +26,9 @@ export default function Text({home,pre, title, subtitle, children}) {
                 onFinishedTyping={() => setActived(true)}
             >
                 {!home ? (
-                <Title>{title}</Title>
+                <React.Fragment>
+                    <OtherTitles>{title}</OtherTitles>
+                </React.Fragment>
                 ) : pre ? (
                 <React.Fragment>
                     <Typing.Speed ms={80} />
@@ -88,17 +93,16 @@ export default function Text({home,pre, title, subtitle, children}) {
             </Typing>
                     {home && <Sub className={actived && "active"}>{subtitle}</Sub>}
                     {!home && !children && (
-                        <Sub className="fast" size="18px">
-                        UNDER CONSTRUCTION...
-                        </Sub>
+                        <Subtitle className="fast" size="18px">
+                            {subtitle}
+                        </Subtitle>
                     )}
                     {home && (
                         <Link to="contact">
-                    
+                            <Button className={actived && "active"}>Hire Me</Button>
                         </Link>
                     )}
                     <Paragraph>{children}</Paragraph>
-                
         </Container>
     );  
 }

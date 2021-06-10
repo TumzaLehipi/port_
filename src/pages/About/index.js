@@ -1,16 +1,18 @@
 import React from 'react';
 
-import Text from '../../components/textArea/index';
+import Text from '../../components/textArea';
 
-import {MainLayout,
-        AboutStyled} from '../../styles/Layout';
+import {
+    MainLayout,
+    AboutStyled
+} from '../../styles/Layout';
 
 function About() {
     return (
             <MainLayout>
                 <AboutStyled>
-                    <Text title = 'ABOUT'>
-                        {/*                    < p>I am a Web Developer. I am ambitious very hard working and highly self-motivated
+                    <Text  title={"About Me"} subtitle  = {"Under Construction..."}>                   
+                    {/* < p>I am a Web Developer. I am ambitious very hard working and highly self-motivated
                     individual with a desire for success in everything I do, and passionate about 
                     learning new things. In future I want to see myself as a more skilled individual in the ICT 
                     industry as this will reflect my hunger to learn, knowledge already acquired, commitment and 
@@ -25,7 +27,7 @@ function About() {
                     Computer Science and Geography at North West University (Mafikeng Campus). I did Java, C++, HTML5,
                     CSS3, MySQL</p>*/}
                     </Text>
-                </AboutStyled>
+                   </AboutStyled>
             </MainLayout>
     );
 }
