@@ -13,7 +13,7 @@ function Blogs() {
             title={"Blogs"}
             subtitle={"Under Construction..."}
         >
-            <p>evdvdv</p>
+            
         </Text>
         </MainLayout>
     );

@@ -148,10 +148,10 @@ export const Span = styled.span`
 
 `;
 export const Button = styled.button`
-  background: ${props => props.theme.background};
+  background: #18181d;
   color: #ff3d00;
   opacity: 0;
-
+  width : 10rem;
   margin-top: 30px;
   cursor: pointer;
   font-size: 0.6em;
