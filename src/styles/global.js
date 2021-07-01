@@ -80,6 +80,10 @@ export const MainContentStyled = styled.main`
   position : relative;
   margin-left : 10rem;
   min-height : 100vh;
+
+  @media screen and (max-width: 420px) {
+      margin: 0;
+  }
   
   /*  .lines{
     position : absolute;
@@ -87,4 +91,5 @@ export const MainContentStyled = styled.main`
     width : 100%;
     .
   }*/
+
 `;

@@ -57,11 +57,12 @@ const rubberBand = keyframes`
 export const Container = styled.div`
     position: absolute;
     margin-left : 8rem;
-    top: 10rem;
+    top: 5rem;
     user-select: none;
     height : 330px;
-    width: 575px;
+    width: 700px;
     color : #444;
+
    
   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     font-size: 5vw;
@@ -70,7 +71,17 @@ export const Container = styled.div`
   @media screen and (min-height: 320px) and (max-height: 819px) and (orientation: portrait) {
     font-size: 3vh;
     left: 90px;
+
   }
+  @media screen and (max-width : 420px){
+      position : relative;
+      top :150px;
+      margin-left : 0;
+      left : 30px;
+      width: 100%;
+
+   
+    }
 `;
 
 export const Title = styled.h1`
@@ -79,6 +90,7 @@ export const Title = styled.h1`
   font-family: 'Nunito', sans-serif;
   font-weight: 400 !important;
   color: white;
+
 
 `;
 
@@ -145,6 +157,12 @@ export const Span = styled.span`
       margin-left: 0.1em;
       color: purple;
     }
+   
+    @media screen and (max-width : 420px){
+    font-size: 4vh;
+    z-index : 2;
+ 
+    }
 
 `;
 export const Button = styled.button`
@@ -169,13 +187,17 @@ export const Button = styled.button`
 export const OtherTitles = styled.div`
 
   position : relative;
-  margin-top : -5rem;
+  margin-top : 30px;
   margin-left : -5rem;
-
-
   letter-spacing: 0.1em;
   font-size: 7vh;
   font-family: 'Nunito', sans-serif;
   font-weight: 400 !important;
   color: white;
+
+
+  @media screen and (max-width : 420px){
+    font-size: 3vh;
+ 
+    }
 `;

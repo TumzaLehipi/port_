@@ -3,15 +3,29 @@ import React from 'react'
 import {NavLink, Link} from 'react-router-dom'
 
 import {
-    NavigationLinks
+    NavigationLinks,
+    Labels
 } from './styles';
 
+
+import {ReactComponent as Bars} from '../../assets/bars.svg';
+
+import {ReactComponent as Times} from '../../assets/times.svg';
 
 import avatar from '../../assets/avatar.jpg'
 
 function Navigation() {
     return (
         <React.Fragment>
+  
+            <Labels>
+                <input type = "checkbox" id="check"/>
+                <label for ="check">
+                    <Bars id ="btn"/>
+                    <Times id ="cancel"/>
+                </label>
+            </Labels> 
+
             <NavigationLinks>
             <div className = "avatar">
                 <Link exact to ="/">
