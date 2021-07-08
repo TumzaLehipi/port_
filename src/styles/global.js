@@ -58,6 +58,7 @@ export const Page = styled.div`
     min-width: 100vh;
   }
 `;
+
 export const Container = styled.div`
   position: absolute;
   will-change: contents;
@@ -66,6 +67,7 @@ export const Container = styled.div`
   margin: 0 auto;
   top: 0px;
   bottom: 5vh;
+
   
   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     min-height: 94vw;
@@ -73,6 +75,7 @@ export const Container = styled.div`
     top: 5vw;
     bottom: 5vw;
   }
+
 `;
 
 export const MainContentStyled = styled.main`
@@ -80,6 +83,14 @@ export const MainContentStyled = styled.main`
   position : relative;
   margin-left : 10rem;
   min-height : 100vh;
+
+  @media screen and  (max-width : 600px) and (orientation : portrait) {
+      margin: 0;
+  }
+  @media screen and (min-width : 601px) and (max-width : 800px) and (orientation : portrait){
+    margin : 0;
+    
+  }
   
   /*  .lines{
     position : absolute;
@@ -87,4 +98,5 @@ export const MainContentStyled = styled.main`
     width : 100%;
     .
   }*/
+
 `;

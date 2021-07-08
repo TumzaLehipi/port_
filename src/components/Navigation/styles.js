@@ -12,14 +12,6 @@ export const NavigationLinks = styled.nav`
     flex-direction: column;
     align-items : center;
     z-index : 999;
-
-
-    
-  @media screen and (min-width: 320px) and (max-width: 819px) and (orientation: landscape) {
-    min-height: 100vw;
-  }
-
-
     .avatar{
         width : 100%;
         height : 200px;
@@ -107,7 +99,62 @@ export const NavigationLinks = styled.nav`
             text-align:center;
         }
     }
+
+    @media screen and (max-width: 805px) {
+      display : none;
+      .nav-item{
+          position : fixed;
+          font-size : 17px;
+
+      }
+    }
+
 `;
+
+
+
+export const Labels  =styled.div`
+
+    width : 10rem;
+    height : 80px;
+
+
+    label #btn, label #cancel{
+      height: 20px;
+      margin: 0 2px;
+      line-height : 80px;
+      float: left;
+      color : white;
+      font-size : 30px; 
+      cursor: pointer;
+      margin-left : 20px;
+      display : none;
+    }
+
+    #check{
+      display : none;
+    }
+    @media screen and (max-width :805px){
+        position : fixed;
+        z-index : 2;
+        width :  100%;
+        background-color : #202026;
+
+
+        label #btn{
+          position : relative;
+          top : 25px;
+          line-height : 80px;
+          display : block;
+          float : right;
+          margin-right : 8%;
+        }
+
+    }
+    @media screen and (min-width : 806px){
+      display : none;
+    }
+    `;
 
 export const List = styled.ul`
  
