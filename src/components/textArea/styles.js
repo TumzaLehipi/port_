@@ -72,13 +72,14 @@ export const Container = styled.div`
     font-size: 3vh;
     left: 90px;
 
+
   }
-  @media screen and (max-width : 420px){
+  @media screen and (min-width : 600px) and (max-width : 800px) and (orientation : portrait){
       position : relative;
-      top :150px;
+      top :30%;
       margin-left : 0;
-      left : 30px;
-      width: 100%;
+      width: 80%;
+
 
    
     }
@@ -161,7 +162,9 @@ export const Span = styled.span`
     @media screen and (max-width : 420px){
     font-size: 4vh;
     z-index : 2;
- 
+    }
+    @media screen and (min-width : 600px) and (max-width : 800px) and (orientation : portrait){
+      font-size : 4.2vh;
     }
 
 `;
@@ -196,8 +199,12 @@ export const OtherTitles = styled.div`
   color: white;
 
 
+
   @media screen and (max-width : 420px){
     font-size: 3vh;
- 
+
+    }
+    @media screen and (min-width : 600px) and (max-width : 800px) and (orientation : portrait){
+      font-size: 3vh;
     }
 `;

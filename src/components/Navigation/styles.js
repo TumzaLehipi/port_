@@ -100,7 +100,7 @@ export const NavigationLinks = styled.nav`
         }
     }
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 805px) {
       display : none;
       .nav-item{
           position : fixed;
@@ -134,7 +134,7 @@ export const Labels  =styled.div`
     #check{
       display : none;
     }
-    @media screen and (max-width : 420px){
+    @media screen and (max-width :805px){
         position : fixed;
         z-index : 2;
         width :  100%;
@@ -151,7 +151,7 @@ export const Labels  =styled.div`
         }
 
     }
-    @media screen and (min-width : 420px){
+    @media screen and (min-width : 806px){
       display : none;
     }
     `;
