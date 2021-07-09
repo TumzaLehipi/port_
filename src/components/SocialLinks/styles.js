@@ -9,7 +9,9 @@ export const Containter = styled.div`
     height : 15rem;
     width: 3rem;
     
-   
+   @media screen and (max-width : 800px){
+     display : none;
+   }
 `;
 export const List = styled.ul`
  

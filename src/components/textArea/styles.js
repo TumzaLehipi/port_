@@ -56,16 +56,31 @@ const rubberBand = keyframes`
 
 export const Container = styled.div`
     position: absolute;
-    margin-left : 8rem;
-    top: 5rem;
+    margin-left : 20%;
+    top: 10rem;
     user-select: none;
     height : 330px;
-    width: 700px;
+    width: 70%;
     color : #444;
 
+    
+    @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
+      margin-top : 10%;
+      width : 70%;
+      margin-left : 15%;
+    }
+
+    @media screen and (min-width : 481px)  and (max-width : 824px) and (min-height : 854px) and (max-height : 1024px) and (orientation : portrait){
+      margin-top : 20%;
+      width : 70% ;
+    }
    
-  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+/*  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     font-size: 5vw;
+  }
+     
+  @media screen and (max-width: 420px) and (orientation: portrait) {
+      margin-top : 200px;
   }
 
   @media screen and (min-height: 320px) and (max-height: 819px) and (orientation: portrait) {
@@ -77,12 +92,10 @@ export const Container = styled.div`
   @media screen and (min-width : 600px) and (max-width : 800px) and (orientation : portrait){
       position : relative;
       top :30%;
-      margin-left : 0;
+      margin-left : 20%;
       width: 80%;
 
-
-   
-    }
+    } */
 `;
 
 export const Title = styled.h1`
@@ -101,15 +114,32 @@ export const Sub = styled.h2`
   font-size: 10px;
   letter-spacing: 0.25em;
   opacity: 1;
+  @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
+      font-size: 7px;
+    
+    }
+    @media screen and (min-width : 481px)  and (max-width : 823px) and (min-height : 854px) and (max-height : 1024px) and (orientation : portrait){
+      font-size: 8px;
+
+    }
 
   `;
   export const Subtitle = styled.h2`
-  margin-left : -5rem;
-  margin-top: 34px;
-  color: #ff3d00;
-  font-size: 10px;
-  letter-spacing: 0.25em;
-  opacity: 1;
+    margin-left : -5rem;
+    margin-top: 34px;
+    color: #ff3d00;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    opacity: 1;
+    @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
+      font-size: 7px;
+
+    }
+    @media screen and (min-width : 481px)  and (max-width : 823px) and (min-height : 854px) and (max-height : 1024px) and (orientation : portrait){
+      font-size: 8px;
+
+    }
+
 
   `;
   export const Paragraph = styled.div`  
@@ -158,13 +188,13 @@ export const Span = styled.span`
       margin-left: 0.1em;
       color: purple;
     }
-   
-    @media screen and (max-width : 420px){
-    font-size: 4vh;
-    z-index : 2;
+    @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
+      font-size: 5vw;
+      z-index : 2;
     }
-    @media screen and (min-width : 600px) and (max-width : 800px) and (orientation : portrait){
-      font-size : 4.2vh;
+    @media screen and (min-width : 481px)  and (max-width : 823px) and (min-height : 854px) and (max-height : 1024px) and (orientation : portrait){
+      font-size: 5.5vw;
+      z-index : 2;
     }
 
 `;
