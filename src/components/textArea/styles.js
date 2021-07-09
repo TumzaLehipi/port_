@@ -125,7 +125,7 @@ export const Sub = styled.h2`
 
   `;
   export const Subtitle = styled.h2`
-    margin-left : -5rem;
+    margin-left : -10rem;
     margin-top: 34px;
     color: #ff3d00;
     font-size: 10px;
@@ -133,11 +133,14 @@ export const Sub = styled.h2`
     opacity: 1;
     @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
       font-size: 7px;
+      margin-top : 0px;
+      margin-left : auto;
 
     }
     @media screen and (min-width : 481px)  and (max-width : 823px) and (min-height : 854px) and (max-height : 1024px) and (orientation : portrait){
       font-size: 8px;
-
+      margin-top : 0px;
+      margin-left : auto;
     }
 
 
@@ -151,22 +154,22 @@ export const Sub = styled.h2`
  
   `;
   export const Heading = styled.h1`
+    color : gray;
 
-  color : gray;
   `;
   export const About = styled.div`
-  margin-top: 100px;
+    margin-top: 100px;
  
   `;
   export const TextContainer = styled.div`
-  display : flex;
-  justify-content : center;
-  flex-direction : column;
-  max-width : 900px;
-  background-color : #252627;
-  padding : 40px;
-  color : #fff;
-  box-shadow : 0 0 1.2rem rgba(0, 0, 0 ,.25);
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+    max-width : 900px;
+    background-color : #252627;
+    padding : 40px;
+    color : #fff;
+    box-shadow : 0 0 1.2rem rgba(0, 0, 0 ,.25);
 
   `;
 
@@ -220,21 +223,24 @@ export const Button = styled.button`
 export const OtherTitles = styled.div`
 
   position : relative;
-  margin-top : 30px;
-  margin-left : -5rem;
+  margin-top : -30px;
+  margin-left : -10rem;
   letter-spacing: 0.1em;
   font-size: 7vh;
   font-family: 'Nunito', sans-serif;
   font-weight: 400 !important;
   color: white;
 
+  @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
+      font-size: 5vw;
 
-
-  @media screen and (max-width : 420px){
-    font-size: 3vh;
-
+      margin-top : -100px;
+      margin-left : auto;
+      
     }
-    @media screen and (min-width : 600px) and (max-width : 800px) and (orientation : portrait){
-      font-size: 3vh;
+  @media screen and (min-width : 481px)  and (max-width : 823px) and (min-height : 854px) and (max-height : 1024px) and (orientation : portrait){
+      font-size: 5.5vw;
+      margin-top : -100px;
+      margin-left : auto;
     }
 `;
