@@ -29,7 +29,8 @@ function Navigation() {
             <NavigationLinks>
             <div className = "avatar">
                 <Link exact to ="/">
-                    <img src = {avatar} alt = ""/>
+                    <img src = {avatar} alt = ""
+                    />
                 </Link>
             </div>
                 <ul className = "nav-item">

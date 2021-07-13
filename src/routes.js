@@ -1,6 +1,8 @@
 import React from 'react'
 import { Switch, Route, Redirect } from "react-router-dom";
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
@@ -10,45 +12,69 @@ import Portfolio from "./pages/Portfolio";
 
 function Routes() {
     return (
-       <Switch>
-           <Route path = '/' 
+       <>
+           <Link path = '/' 
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                         exact render = {()=>
                         <Home 
                     />
                 }/> 
                 
-                <Route path = '/About' 
+                <Link path = '/About' 
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                         exact render = {()=>
                         <About 
                     />
                 }/> 
         
-                <Route path = '/Contact' 
+                <Link path = '/Contact' 
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
                         exact render = {()=>
                         <Contact 
                       //title = {this.state.contact.title}
                     />
                 }/> 
-                    <Route path = '/Resume' 
+                    <Link path = '/Resume' 
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                         exact render = {()=>
                         <Resume 
                       //  title = {this.state.contact.title}
                     />
                 }/> 
-                    <Route path = '/Blogs' 
+                    <Link path = '/Blogs' 
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                         exact render = {()=>
                         <Blogs
                     />
                 }/>
-                    <Route path = '/Portfolio' 
+                    <Link path = '/Portfolio' 
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                         exact render = {()=>
                         <Portfolio
                     />
                 }/>
-                <Route path="*">
+                <Link path="*">
                     <Redirect to="/" />
-                </Route>
-       </Switch>
+                </Link>
+       </>
 
     );
 }

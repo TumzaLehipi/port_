@@ -6,6 +6,7 @@ import SocialLinks from '../../components/SocialLinks';
 
 import Text from '../../components/textArea/index';
 
+
 function Home() {
     return (
         <React.Fragment>
@@ -16,7 +17,8 @@ function Home() {
                  subtitle={"Back-End(NodeJS) / Front-End(ReactJS) / Desktop(ElectronJS)"}
                  />
                  <SocialLinks/>
-                <Particle/>   
+                <Particle/>
+    
         </React.Fragment>
     );
 }
