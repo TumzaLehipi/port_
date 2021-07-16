@@ -51,21 +51,20 @@ export const Nav = styled.nav`
 
 export const Footer = styled.footer`
     
-        border-top : 1px solid  #181a1e;
-        width : 100%;
-        p{
-            padding: .5rem 0;
-            font-size: 10px;
-            display : block;
-            text-align:center;
-        }`;
+    border-top : 1px solid  #181a1e;
+    width : 100%;
+    p{
+        padding: .5rem 0;
+        font-size: 10px;
+        display : block;
+        text-align:center;
+    }`
+;
 
 
 export const MobileIcon  = styled.div`
     
     display : none;
-
-
     @media screen and (max-width : 768px){
       display : block;
       position : absolute;
