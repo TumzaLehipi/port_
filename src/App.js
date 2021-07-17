@@ -26,6 +26,7 @@ class App extends Component {
         return (
           <Router>
             <GlobalStyle />
+            <SideBar/>
              <Navigation/>
                   <Page>
                     <MainContentStyled>

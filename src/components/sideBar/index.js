@@ -1,21 +1,24 @@
-import React from 'react';
+import React from 'react'
 
-import Navigation from '../Navigation/index'
-
-import {
-    Container, 
-   // ChildrenList
-} from './styles';
-
+import {SideBarContainer,
+        CloseIcon,
+        Icon} from './styles';
 
 function SideBar() {
     return (
-        <React.Fragment>
-                <Container>
-                    <Navigation/>
-                </Container>
-        </React.Fragment>
-    );
+        <SideBarContainer>
+            <Icon>  
+                <CloseIcon/>
+            </Icon>
+            <SideBarWrapper>
+                <SideBarMenu>
+                    <SideBarLink to ='about'>
+                        About
+                    </SideBarLink>
+                </SideBarMenu>
+            </SideBarWrapper>
+        </SideBarContainer>
+    )
 }
 
 export default SideBar

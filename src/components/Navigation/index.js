@@ -1,69 +1,67 @@
+
 import React from 'react'
 
-import { Link} from 'react-router-dom';
-
-import {FaBars} from 'react-icons/fa';
-
-import {
-    Nav,
-    MobileIcon,
-    Avatar,
-    Img,
-    NavMenu,
-    NavItem, 
-    NavLink,
-    Footer,
-
-
-} from './styles';
-
+import  {Link} from 'react-router-dom'
 
 import avatar from '../../assets/avatar.jpg'
+
+import {
+    NavContainer,
+    MobileIcon,
+    FaBars,
+  
+    Avatar,
+    NavMenu,
+    NavItem,
+    NavLink
+} from './styles';
 
 function Navigation() {
     return (
         <React.Fragment>
-            <Nav>
-                <MobileIcon>
-                    <FaBars/>
-                </MobileIcon> 
-                <Avatar>
-                    <Link exact to ="/">
-                        <Img src = {avatar} alt = ""/>
-                    </Link>
-                </Avatar>
-                <NavMenu >
+            <MobileIcon>
+                <FaBars/>
+            </MobileIcon> 
+
+            <NavContainer>
+            <Avatar>
+                <Link exact to ="/">
+                    <img src = {avatar} alt = ""/>
+                </Link>
+            </Avatar>
+                <NavMenu className = "nav-item">
+
                     <NavItem className = "nav-item">
-                        <NavLink  to="/about" name="about" activeClassName="active-class">
+                        <NavLink  to="about" name="about" activeClassName="active-class">
                             About
                         </NavLink>              
                     </NavItem>
                     <NavItem className = "nav-item">        
-                        <NavLink  to="/resume" name="resume" activeClassName="active-class">
+                        <NavLink  to="resume" name="resume" activeClassName="active-class">
                             Resume
                         </NavLink>
                     </NavItem>
                     <NavItem className = "nav-item">
-                    <NavLink  to="/portfolio" name="portfolio" activeClassName="active-class">
+                    <NavLink  to="portfolio" name="portfolio" activeClassName="active-class">
                         Portfolios
                     </NavLink> 
                     </NavItem>
                     <NavItem className = "nav-item">
-                        <NavLink  to="/blogs" name="blogs" activeClassName="active-class">
+                        <NavLink  to="blogs" name="blogs" activeClassName="active-class">
                             Blogs
                         </NavLink> 
                     </NavItem>
                     <NavItem className = "nav-item">
-                        <NavLink  to="/contact" name="contact" activeClassName="active-class">
+                        <NavLink  to="contact" name="contact" activeClassName="active-class">
                             Contact
                         </NavLink> 
                     </NavItem>
                 </NavMenu>
  
-                <Footer>
+                <footer>
                     <p>@2021 Tumelo Moipolai</p>
-                </Footer>
-        </Nav>
+                </footer>
+        </NavContainer>
         </React.Fragment>
     );
 }
