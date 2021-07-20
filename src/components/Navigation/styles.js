@@ -126,7 +126,7 @@ export const MobileIcon  =styled.div`
 `;
 
 export const FaBars  = styled(Bars)`
-       height: 20px;
+        height: 20px;
       margin: 0 2px;
       line-height : 80px;
       float: left;

@@ -2,7 +2,11 @@ import React from 'react'
 
 import {SideBarContainer,
         CloseIcon,
-        Icon} from './styles';
+        Icon,
+        SideBarWrapper,
+        SideBarMenu, 
+        SideBarLink
+    } from './styles';
 
 function SideBar() {
     return (
@@ -14,6 +18,18 @@ function SideBar() {
                 <SideBarMenu>
                     <SideBarLink to ='about'>
                         About
+                    </SideBarLink>
+                    <SideBarLink to ='resume'>
+                        Resume
+                    </SideBarLink>
+                    <SideBarLink to ='portfolio'>
+                        portfolio
+                    </SideBarLink>
+                     <SideBarLink to ='blogs'>
+                        Blogs
+                    </SideBarLink>
+                    <SideBarLink to ='contact'>
+                        Contact
                     </SideBarLink>
                 </SideBarMenu>
             </SideBarWrapper>
