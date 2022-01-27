@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Text from '../../components/textArea';
+import DefaultText from '../../components/defaultTextArea/index';
 
 import {
   MainLayout
@@ -9,10 +9,10 @@ import {
 function Contact() {
     return (
       <MainLayout>
-            <Text 
+            <DefaultText 
             title={"Contact Me"}
             subtitle={"Under Construction..."}
-            ></Text>
+            ></DefaultText>
        
       </MainLayout>
     );

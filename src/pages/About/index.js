@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Text from '../../components/textArea';
+import DefaultText from '../../components/defaultTextArea/index';
 
 import {
     MainLayout,
@@ -11,9 +11,9 @@ function About() {
     return (
             <MainLayout>
                 <AboutStyled>
-                    <Text  title={"About Me"} subtitle  = {"Under Construction..."}>                   
-           
-                    </Text>
+                    <DefaultText  title={"About Me"} subtitle  = {"Under Construction..."}>                   
+
+                    </DefaultText>
                    </AboutStyled>
             </MainLayout>
     );

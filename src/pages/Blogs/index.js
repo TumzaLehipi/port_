@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Text from '../../components/textArea';
+import DefaultText from '../../components/defaultTextArea/index';
 
 import {
     MainLayout
@@ -9,12 +9,12 @@ import {
 function Blogs() {
     return (
         <MainLayout>
-            <Text 
+            <DefaultText 
             title={"Blogs"}
             subtitle={"Under Construction..."}
         >
             
-        </Text>
+        </DefaultText>
         </MainLayout>
     );
 }
