@@ -27,7 +27,7 @@ export default function DefaultText({title, subtitle, children}) {
                 onFinishedTyping={() => setActived(true)}
             >
                 <Title>
-                {title}
+                    {title}
                 </Title>
             </Typing>
                 
