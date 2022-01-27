@@ -125,9 +125,10 @@ export const Sub = styled.h2`
     margin-left : -5rem;
     margin-top: 34px;
     color: #ff3d00;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 0.25em;
-    opacity: 1;
+  
+
     @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
       font-size: 7px;
 
@@ -136,7 +137,6 @@ export const Sub = styled.h2`
       font-size: 8px;
 
     }
-
 
   `;
   export const Paragraph = styled.div`  
