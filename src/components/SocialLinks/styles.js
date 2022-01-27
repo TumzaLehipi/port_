@@ -3,11 +3,12 @@ import styled from 'styled-components';
 
 export const Containter = styled.div`
     position: absolute;
-    margin-left : 65rem;
-    top: 12rem;
+    right : 5%;
+    top: 40%;
     user-select: none;
     height : 15rem;
     width: 3rem;
+
     
    @media screen and (max-width : 800px){
      display : none;
@@ -36,7 +37,6 @@ export const ChildrenList = styled.li`
     width: 60%;
     margin: auto;
     font-size : 2rem;
-  
     color: #fff;
 
     &#github:hover {
@@ -54,7 +54,7 @@ export const ChildrenList = styled.li`
   }
 `;
 
-export const Lines = styled.div`
+export const BottomVerticalLine = styled.div`
 
   position : absolute;
   width : 1px;
@@ -62,9 +62,13 @@ export const Lines = styled.div`
   background-color : white;
   margin-left :1.5rem;
  
+      
+  @media screen and (max-width : 800px){
+    display : none;
+  }
 
 `;
-export const Line2 = styled.div`
+export const TopVerticalLine = styled.div`
   
   position : absolute;
   width : 1px;
@@ -73,5 +77,9 @@ export const Line2 = styled.div`
   margin-left :1.5rem;
   margin-top : -2rem;
  
+      
+  @media screen and (max-width : 800px){
+    display : none;
+  }
 
 `;
