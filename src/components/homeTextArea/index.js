@@ -6,14 +6,14 @@ import {Link} from 'react-router-dom';
 
 import {
     Container,
-    Title,
+    // Title,
     Sub, Span, 
     Paragraph, 
     Button, 
     OtherTitles,
     Subtitle} from './styles';
 
-export default function Text({home,pre, title, subtitle, children}) {
+export default function HomeText({home,pre, title, subtitle, children}) {
     
     const [actived, setActived] = useState(false);
     

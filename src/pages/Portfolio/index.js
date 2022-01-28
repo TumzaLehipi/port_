@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Text from '../../components/textArea';
+import DefaultText from '../../components/defaultTextArea/index';
 
 import {
     MainLayout
@@ -9,7 +9,7 @@ import {
 function Portfolio() {
     return (
         <MainLayout>
-            <Text 
+            <DefaultText 
             title={"Portfolio"}
             subtitle={"Under Construction..."}
             />

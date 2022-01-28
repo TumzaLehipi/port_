@@ -4,12 +4,12 @@ import Particle from '../../components/particles/particle';
 
 import SocialLinks from '../../components/SocialLinks';
 
-import Text from '../../components/textArea/index';
+import HomeText from '../../components/homeTextArea/index';
 
 function Home() {
     return (
         <React.Fragment>
-                <Text 
+                <HomeText 
                  home = {true}
                  pre = {"8ta,~Ke TumzaLehipi,~WebDeveloper!"}
                  title={"Hi,~I'm Tumelo Moipolai,~WebDeveloper!"}
