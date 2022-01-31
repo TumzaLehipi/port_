@@ -44,8 +44,7 @@ export const NavigationLinks = styled.nav`
     .nav-item{
         position : relative;
         top : -34px;
-        margin-top : 0;
-
+          margin-top : 0;
         width : 100%;
         text-align : center;
         cursor : pointer;
@@ -54,7 +53,6 @@ export const NavigationLinks = styled.nav`
             display : block;
             border-bottom: 1px solid #181a1e;
          
-           
             a{
                 display : block;
                 padding : 1rem 0;
@@ -62,10 +60,10 @@ export const NavigationLinks = styled.nav`
               
                 &:hover{
                   cursor: pointer;
-                   
-                  opacity : 0.50;
+                  
                 }
                 &:before{
+                  color : white;
                   content : "";
                   position : absolute;
                   bottom : 0;
@@ -105,13 +103,10 @@ export const NavigationLinks = styled.nav`
       .nav-item{
           position : fixed;
           font-size : 17px;
-
       }
     }
 
 `;
-
-
 
 export const Labels  =styled.div`
 
@@ -154,7 +149,7 @@ export const Labels  =styled.div`
     @media screen and (min-width : 806px){
       display : none;
     }
-    `;
+`;
 
 export const List = styled.ul`
  

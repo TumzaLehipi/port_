@@ -126,12 +126,15 @@ export const Sub = styled.h2`
  `;
 export const Subtitle = styled.h2`
 
-  margin-left : -5rem;
-  margin-top: 34px;
+  position: absolute;
+  display : inline;
+  top : 400px;
+  left : 600px;
   color: #ff3d00;
   font-size: 10px;
   letter-spacing: 0.25em;
   opacity: 1;
+  backgound : yellow;
 
   @media screen and (max-width : 480px) and (max-height : 823px) and (orientation : portrait){
 
