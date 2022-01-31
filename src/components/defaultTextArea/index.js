@@ -11,7 +11,7 @@ import {
     // Paragraph, 
     // Button, 
     // OtherTitles,
-    // Subtitle
+     Subtitle
 } from './styles';
 
 export default function DefaultText({title, subtitle, children}) {
@@ -30,7 +30,9 @@ export default function DefaultText({title, subtitle, children}) {
                     {title}
                 </Title>
             </Typing>
-                
+                <Subtitle className="fast" size="18px">
+                            {subtitle}
+                </Subtitle>
         </Container>
     );  
 }
