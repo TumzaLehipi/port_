@@ -11,9 +11,7 @@ function About() {
     return (
             <MainLayout>
                 <AboutStyled>
-                    <DefaultText  title={"About Me"} subtitle  = {"Under Construction..."}>                   
-
-                    </DefaultText>
+                    <DefaultText  title={"About Me"} subtitle  = {"Under Construction..."}/>                   
                    </AboutStyled>
             </MainLayout>
     );
