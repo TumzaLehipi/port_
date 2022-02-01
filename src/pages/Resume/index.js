@@ -10,8 +10,8 @@ function Resume(props) {
     return (
         <MainLayout>
             <DefaultText 
-            title={"Resume"}
-            subtitle={"Under Construction..."}
+                title={"Resume"}
+                subtitle={"Under Construction..."}
             />
         </MainLayout>
     );

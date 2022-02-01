@@ -10,10 +10,10 @@ function Home() {
     return (
         <React.Fragment>
                 <HomeText 
-                 home = {true}
-                 pre = {"8ta,~Ke TumzaLehipi,~WebDeveloper!"}
-                 title={"Hi,~I'm Tumelo Moipolai,~WebDeveloper!"}
-                 subtitle={"Back-End(NodeJS) / Front-End(ReactJS) / Desktop(ElectronJS)"}
+                        home = {true}
+                        pre = {"8ta,~Ke TumzaLehipi,~WebDeveloper!"}
+                        title={"Hi,~I'm Tumelo Moipolai,~WebDeveloper!"}
+                        subtitle={"Back-End(NodeJS) / Front-End(ReactJS) / Desktop(ElectronJS)"}
                  />
                  <SocialLinks/>
                 <Particle/>   

@@ -10,11 +10,11 @@ function Blogs() {
     return (
         <MainLayout>
             <DefaultText 
-            title={"Blogs"}
-            subtitle={"Under Construction..."}
-        >
+                title={"Blogs"}
+                subtitle={"Under Construction..."}
+            />
             
-        </DefaultText>
+    
         </MainLayout>
     );
 }

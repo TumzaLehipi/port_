@@ -10,10 +10,9 @@ function Contact() {
     return (
       <MainLayout>
             <DefaultText 
-            title={"Contact Me"}
-            subtitle={"Under Construction..."}
-            ></DefaultText>
-       
+              title={"Contact Me"}
+              subtitle={"Under Construction..."}
+            />
       </MainLayout>
     );
 }
