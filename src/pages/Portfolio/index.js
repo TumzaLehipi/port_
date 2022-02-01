@@ -10,8 +10,8 @@ function Portfolio() {
     return (
         <MainLayout>
             <DefaultText 
-            title={"Portfolio"}
-            subtitle={"Under Construction..."}
+                title={"Portfolio"}
+                subtitle={"Under Construction..."}
             />
         </MainLayout>
     )

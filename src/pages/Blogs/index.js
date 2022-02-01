@@ -13,8 +13,6 @@ function Blogs() {
                 title={"Blogs"}
                 subtitle={"Under Construction..."}
             />
-            
-    
         </MainLayout>
     );
 }
