@@ -1,26 +1,17 @@
 {
   "files": {
-    "main.js": "/port_/static/js/main.28695e02.chunk.js",
-    "main.js.map": "/port_/static/js/main.28695e02.chunk.js.map",
-    "runtime-main.js": "/port_/static/js/runtime-main.8b62d5fa.js",
-    "runtime-main.js.map": "/port_/static/js/runtime-main.8b62d5fa.js.map",
-    "static/js/2.d508d04f.chunk.js": "/port_/static/js/2.d508d04f.chunk.js",
-    "static/js/2.d508d04f.chunk.js.map": "/port_/static/js/2.d508d04f.chunk.js.map",
+    "main.js": "/port_/static/js/main.8b4d2068.js",
+    "static/media/avatar.jpg": "/port_/static/media/avatar.57be12b47a3ed9c91ad4.jpg",
+    "static/media/instagram.svg": "/port_/static/media/instagram.5eeb0060d2d65d5772f89c143c7beedc.svg",
+    "static/media/github.svg": "/port_/static/media/github.66bf012b28d99b13c5c8b7356b9ec5dc.svg",
     "index.html": "/port_/index.html",
-    "precache-manifest.37950d213deda5631ac2f60547fca49b.js": "/port_/precache-manifest.37950d213deda5631ac2f60547fca49b.js",
-    "service-worker.js": "/port_/service-worker.js",
-    "static/js/2.d508d04f.chunk.js.LICENSE.txt": "/port_/static/js/2.d508d04f.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpg": "/port_/static/media/avatar.3dbc4fe5.jpg",
-    "static/media/bars.b3f49afd.svg": "/port_/static/media/bars.b3f49afd.svg",
-    "static/media/facebook.11a706e8.svg": "/port_/static/media/facebook.11a706e8.svg",
-    "static/media/github.6ed3db48.svg": "/port_/static/media/github.6ed3db48.svg",
-    "static/media/instagram.201afcb0.svg": "/port_/static/media/instagram.201afcb0.svg",
-    "static/media/linkedin.083538a6.svg": "/port_/static/media/linkedin.083538a6.svg",
-    "static/media/times.2c5552a1.svg": "/port_/static/media/times.2c5552a1.svg"
+    "static/media/linkedin.svg": "/port_/static/media/linkedin.d55a830d12ca691fa6250c47b6c9f0df.svg",
+    "static/media/times.svg": "/port_/static/media/times.ea7c95d7120c0efcb4b16602bf9049a5.svg",
+    "static/media/bars.svg": "/port_/static/media/bars.e8db7520285d01597a75c139d54e29ce.svg",
+    "static/media/facebook.svg": "/port_/static/media/facebook.05f678b36031f88853076a0824250f3d.svg",
+    "main.8b4d2068.js.map": "/port_/static/js/main.8b4d2068.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b62d5fa.js",
-    "static/js/2.d508d04f.chunk.js",
-    "static/js/main.28695e02.chunk.js"
+    "static/js/main.8b4d2068.js"
   ]
 }
