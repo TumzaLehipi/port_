@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom';
 
 import {
     Container,
-    // Title,
-    Sub, Span, 
+    Sub,
+    Span, 
     Paragraph, 
     Button, 
     OtherTitles,
