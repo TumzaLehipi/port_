@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 import Typing from 'react-typing-animation';
 
-import {Link} from 'react-router-dom';
-
+import {Link } from 'react-router-dom';
+      
 import {
     Container,
     Sub,
