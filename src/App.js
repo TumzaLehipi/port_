@@ -2,14 +2,9 @@ import React, { Component } from 'react';
 
 import {
     BrowserRouter as Router, 
-
   } from 'react-router-dom'
 
 import Routes from "./routes";
-
-
-
-import SideBar from './components/sideBar/index';
 
 import { 
   GlobalStyle, 
