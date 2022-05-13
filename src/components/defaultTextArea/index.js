@@ -2,15 +2,9 @@ import React, { useState } from 'react';
 
 import Typing from 'react-typing-animation';
 
-import {Link} from 'react-router-dom';
-
 import {
     Container,
     Title,
-    // Sub, Span, 
-    // Paragraph, 
-    // Button, 
-    // OtherTitles,
      Subtitle
 } from './styles';
 

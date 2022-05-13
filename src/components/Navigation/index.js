@@ -28,7 +28,7 @@ function Navigation() {
 
             <NavigationLinks>
             <div className = "avatar">
-                <Link exact to ="/">
+                <Link exact to ="/port_">
                     <img src = {avatar} alt = ""/>
                 </Link>
             </div>
