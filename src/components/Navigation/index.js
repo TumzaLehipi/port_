@@ -33,7 +33,6 @@ function Navigation() {
                 </Link>
             </div>
                 <ul className = "nav-item">
-
                     <li className = "nav-item">
                         <NavLink  to="/about" name="about" activeClassName="active-class">
                             About
@@ -62,7 +61,7 @@ function Navigation() {
                 </ul>
  
                 <footer>
-                    <p>@2021 Tumelo Moipolai</p>
+                    <p>{new Date().getUTCFullYear()} Tumelo Moipolai</p>
                 </footer>
         </NavigationLinks>
         </React.Fragment>
