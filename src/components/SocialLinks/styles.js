@@ -1,10 +1,11 @@
+
 import styled from 'styled-components';
 
 
 export const Containter = styled.div`
     position: absolute;
     right : 5%;
-    top: 40%;
+    top: 30%;
     user-select: none;
     height : 15rem;
     width: 3rem;
