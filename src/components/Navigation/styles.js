@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 export const NavigationLinks = styled.nav`
 
     width : 10rem;
@@ -11,7 +12,6 @@ export const NavigationLinks = styled.nav`
     flex-direction: column;
     align-items : center;
     z-index : 999;
-    
     .avatar{
         width : 100%;
         height : 200px;
@@ -41,25 +41,19 @@ export const NavigationLinks = styled.nav`
 
             }
     }
-
     .nav-item{
-
         position : relative;
         top : -34px;
-        margin-top : 0;
+          margin-top : 0;
         width : 100%;
         text-align : center;
         cursor : pointer;
-
-        li:first-child {
-          border-top: 1px solid #181a1e;
-        }
     
-        li {
+        li{
             display : block;
             border-bottom: 1px solid #181a1e;
          
-            a {
+            a{
                 display : block;
                 padding : 1rem 0;
                 position : relative;
@@ -94,10 +88,8 @@ export const NavigationLinks = styled.nav`
     }
 
     footer{
-
         border-top : 1px solid  #181a1e;
         width : 100%;
-
         p{
             padding: .5rem 0;
             font-size: 10px;
@@ -108,7 +100,6 @@ export const NavigationLinks = styled.nav`
 
     @media screen and (max-width: 805px) {
       display : none;
-
       .nav-item{
           position : fixed;
           font-size : 17px;
