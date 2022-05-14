@@ -127,9 +127,9 @@ export const Sub = styled.h2`
 export const Subtitle = styled.h2`
 
   position: absolute;
-  display : inline;
-  top : 400px;
-  left : 600px;
+  display : ;
+  top : 50px;
+  left : px;
   color: #ff3d00;
   font-size: 10px;
   letter-spacing: 0.25em;
