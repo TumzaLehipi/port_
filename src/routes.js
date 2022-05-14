@@ -11,7 +11,7 @@ import Portfolio from "./pages/Portfolio";
 function Routes() {
     return (
        <Switch>
-           <Route path = '/' 
+           <Route path = '/port_' 
                         exact render = {()=>
                         <Home 
                     />
